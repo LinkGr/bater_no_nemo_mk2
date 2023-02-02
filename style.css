@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100vw;
+    max-height: 100vh;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nemo {
+    width: 200px;
+    height: 350px;
+    position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-100px;
+    margin-top:-175px;
+	}
